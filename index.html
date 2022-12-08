@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Endereço</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Conversão de moeda</h1>
+
+
+       <div class="card">
+        
+        <div class="inputs-box">
+            <label class="qtd-label" for="input-value">Quantidade <span class="flag-02"></span><span class="flag-01"></span></label>
+            <input class="input-value" type="number" placeholder="Digite o valor">
+
+            <select class="select-01" name="coins" onblur="flag01()">
+                <option value="0" selected>Selecione a moeda</option>
+                <option class="brl" value="BRL">BRL / Real Brasileiro</option>
+                <option value="USD" >USD / Dólar</option>
+                <option value="EUR">EUR</option>
+              </select>
+
+              <select class="select-02" name="coins-02" onblur="flag02()" >
+                <option value="0" selected>Selecione a moeda</option>
+                <option  value="BRL">BRL/ Real Brasileiro</option>
+                <option value="USD">USD/ Dólar</option>
+                <option value="EUR">EUR</option>
+              </select>
+
+              <button class="btn-converter" onclick="converter()">Converter</button>
+        </div>
+           
+       </div>
+
+        <p class="results">Resultado</p>
+
+
+
+       
+      
+
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

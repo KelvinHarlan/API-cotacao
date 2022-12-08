@@ -1,0 +1,89 @@
+body{
+    background: #1ac7f0;
+    background: radial-gradient(circle, rgba(26,199,240,1) 20%, rgba(0,18,255,1) 100%);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+.container{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+
+.card{
+    min-height: 50vh;
+    background-color:#fff;
+    border-radius: .5rem;
+    color: #535353;
+    padding: .5rem;
+}
+
+.title{
+    text-align: center;
+}
+
+.inputs-box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+
+.input-value{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #00f ;
+    margin-bottom: .5rem;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #00f;
+}
+
+select{
+    height: 3rem;
+    border-radius: .3rem;
+}
+
+.select-01, .select-02{
+    margin-bottom: 10px;
+}
+
+.btn-converter{
+   display: inline-block;
+   height: 3rem;
+   background-color: #00f;
+   color: #fff;
+   border: none;
+   border-radius: .3rem;
+
+}
+
+.btn-converter:hover{
+    background-color: #1ac7f0;
+    
+}
+
+.btn-converter:active{
+    background-color: #26c426;
+}
+
+
+img{
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 20%;
+    display: inline-block;
+    float: right;
+    margin: 5px;
+}
